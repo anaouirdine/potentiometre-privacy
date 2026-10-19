@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Potentiomètre – Politique de confidentialité / Privacy policy</title>
+<style>
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; line-height: 1.6; color: #231917; background: #fff8f5; }
+h1 { color: #b0412a; font-size: 1.8rem; margin-bottom: .2rem; }
+h2 { color: #b0412a; margin-top: 2rem; font-size: 1.2rem; }
+.meta { color: #53433f; font-size: .9rem; }
+@media (prefers-color-scheme: dark) { body { background: #1a110f; color: #f1dfda; } h1, h2 { color: #ffb4a1; } .meta { color: #d8c2bc; } }
+</style>
+</head>
+<body>
+<p><a href="en.html">English version</a></p>
+<h1>Potentiomètre – Politique de confidentialité</h1>
+<p class="meta">Éditeur : Doul · Contact : <a href="mailto:contact@doul.fr">contact@doul.fr</a> · Dernière mise à jour : 19 octobre 2026</p>
+<p>Potentiomètre détecte, par Bluetooth, un autre téléphone équipé de l’application à quelques mètres, et calcule de façon privée si vous avez au moins un contact en commun. L’application est conçue pour que <strong>vos données restent sur votre téléphone</strong>.</p>
+<h2>1. Données traitées</h2>
+<ul>
+<li><strong>Carnet de contacts</strong> (numéros de téléphone et noms) : lu en mémoire uniquement pendant une rencontre, normalisé, transformé en valeurs chiffrées, puis effacé de la mémoire. Il n’est jamais enregistré sur le disque, ni envoyé à un serveur.</li>
+<li><strong>Votre numéro de téléphone</strong> (facultatif) : enregistré chiffré sur votre téléphone. Il sert uniquement, par calcul privé, à rester silencieux avec les personnes qui vous ont déjà dans leurs contacts.</li>
+<li><strong>Numéros bloqués</strong> que vous saisissez : enregistrés chiffrés sur votre téléphone.</li>
+<li><strong>Vos Matchs</strong> (date, mot-surprise, note facultative, secret de paire) : enregistrés chiffrés sur votre téléphone.</li>
+<li><strong>Réglages</strong> de l’application : enregistrés sur votre téléphone.</li>
+</ul>
+<h2>2. Ce qui est échangé avec un téléphone proche</h2>
+<p>Lors d’une rencontre, les deux téléphones échangent par Bluetooth, sur un canal chiffré de bout en bout (X25519, ChaCha20-Poly1305), des valeurs cryptographiques à usage unique (intersection privée d’ensembles sur la courbe Ristretto255, avec des clés renouvelées à chaque rencontre). Ces valeurs ne permettent pas de retrouver vos numéros ni vos noms. Chaque téléphone apprend seulement le nombre de contacts en commun (affiché au plus « 20+ »). En mode Indice, facultatif et activé par les deux personnes, chaque téléphone peut afficher l’initiale de <em>son propre</em> contact commun ; aucun nom n’est transmis.</p>
+<p>La publicité Bluetooth ne contient qu’un identifiant aléatoire renouvelé régulièrement : ni nom, ni numéro, ni localisation.</p>
+<h2>3. Ce que nous ne faisons pas</h2>
+<ul>
+<li>Aucun serveur ne reçoit vos contacts, vos Matchs ou votre numéro. L’application Android ne demande même pas l’accès à Internet.</li>
+<li>Aucune publicité, aucun traceur, aucune mesure d’audience, aucune revente de données.</li>
+<li>Aucune localisation n’est utilisée.</li>
+<li>Aucune messagerie, aucun profil, aucune photo.</li>
+</ul>
+<h2>4. Durée de conservation et vos droits</h2>
+<p>Les données restent sur votre téléphone jusqu’à ce que vous les supprimiez. Depuis les réglages, vous pouvez exporter toutes vos données (format JSON), oublier un Match, ou tout supprimer. Désinstaller l’application efface toutes ses données : il n’existe aucune sauvegarde dans le cloud. Pour toute question sur vos données, écrivez-nous à l’adresse ci-dessus.</p>
+<h2>5. Contacts de tiers</h2>
+<p>Les personnes présentes dans votre carnet d’adresses n’utilisent pas forcément l’application. Leurs coordonnées ne quittent jamais votre téléphone en clair et ne sont jamais conservées en dehors de votre carnet d’adresses.</p>
+<h2>6. Âge minimum</h2>
+<p>Potentiomètre est réservé aux personnes de 18 ans et plus.</p>
+<h2>7. Base légale (RGPD)</h2>
+<p>Le traitement repose sur votre consentement, donné en activant le mode Potentiomètre et en accordant les autorisations. Vous pouvez le retirer à tout moment en désactivant le mode, en retirant les autorisations ou en désinstallant l’application.</p>
+<h2>8. Modifications</h2>
+<p>Toute modification de cette politique sera publiée sur cette page avec une nouvelle date de mise à jour.</p>
+</body>
+</html>

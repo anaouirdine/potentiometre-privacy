@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Potentiomètre – Privacy policy</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; line-height: 1.6; color: #231917; background: #fff8f5; }
+  h1 { color: #b0412a; font-size: 1.8rem; margin-bottom: .2rem; }
+  h2 { color: #b0412a; margin-top: 2rem; font-size: 1.2rem; }
+  .meta { color: #53433f; font-size: .9rem; }
+  @media (prefers-color-scheme: dark) { body { background: #1a110f; color: #f1dfda; } h1, h2 { color: #ffb4a1; } .meta { color: #d8c2bc; } }
+</style>
+</head>
+<body>
+<p><a href="index.html">Version française</a></p>
+<h1>Potentiomètre – Privacy policy</h1>
+<div>
+<p class="meta">Publisher: Doul · Contact: <a href="mailto:contact@doul.fr">contact@doul.fr</a> · Last updated: 19 October 2026</p>
+
+<p>Potentiomètre uses Bluetooth to detect another phone running the app a few metres away, and privately computes whether you share at least one contact. The app is designed so that <strong>your data stays on your phone</strong>.</p>
+
+<h2>1. Data processed</h2>
+<ul>
+  <li><strong>Contacts</strong> (phone numbers and names): read in memory only during an encounter, normalised, turned into encrypted values, then cleared from memory. Never written to disk or sent to a server.</li>
+  <li><strong>Your phone number</strong> (optional): stored encrypted on your phone. Only used, through private computation, to stay quiet with people who already have you in their contacts.</li>
+  <li><strong>Blocked numbers</strong> you enter: stored encrypted on your phone.</li>
+  <li><strong>Your Matches</strong> (date, surprise word, optional note, pair secret): stored encrypted on your phone.</li>
+  <li><strong>App settings</strong>: stored on your phone.</li>
+</ul>
+
+<h2>2. What is exchanged with a nearby phone</h2>
+<p>During an encounter, the two phones exchange over Bluetooth, through an end-to-end encrypted channel (X25519, ChaCha20-Poly1305), single-use cryptographic values (private set intersection on the Ristretto255 curve, with fresh keys for every encounter). These values cannot be used to recover your numbers or names. Each phone only learns how many contacts are shared (shown up to “20+”). In the optional Hint mode, turned on by both people, each phone may show the initial of <em>its own</em> common contact; no name is transmitted.</p>
+<p>The Bluetooth advertisement only contains a regularly renewed random identifier: no name, number or location.</p>
+
+<h2>3. What we don’t do</h2>
+<ul>
+  <li>No server receives your contacts, Matches or number. The Android app does not even request Internet access.</li>
+  <li>No ads, no trackers, no analytics, no data resale.</li>
+  <li>No location is used.</li>
+  <li>No chat, no profile, no photos.</li>
+</ul>
+
+<h2>4. Retention and your rights</h2>
+<p>Data stays on your phone until you delete it. From the settings you can export all your data (JSON), forget a Match, or delete everything. Uninstalling the app erases all its data: there is no cloud backup. For any question about your data, contact us at the address above.</p>
+
+<h2>5. Third-party contacts</h2>
+<p>People in your address book may not use the app. Their details never leave your phone in readable form and are never stored outside your address book.</p>
+
+<h2>6. Minimum age</h2>
+<p>Potentiomètre is for people aged 18 and over.</p>
+
+<h2>7. Legal basis (GDPR)</h2>
+<p>Processing is based on your consent, given by turning on Potentiomètre mode and granting the permissions. You can withdraw it at any time by turning the mode off, revoking the permissions or uninstalling the app.</p>
+
+<h2>8. Changes</h2>
+<p>Any change to this policy will be published on this page with a new update date.</p>
+</div>
+</body>
+</html>
